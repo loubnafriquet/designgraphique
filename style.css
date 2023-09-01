@@ -79,7 +79,7 @@ hr
     font-style: light;
     font-weight: 300;
     font-size: 1.1em;
-    overflow-y: auto; /* Permet de faire défiler le contenu si nécessaire */
+    overflow-y: scroll; /* Permet de faire défiler le contenu si nécessaire */
 }
 
 
