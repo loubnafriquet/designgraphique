@@ -31,7 +31,7 @@ hr {
     margin: 2em 0; /* Espacement en haut et en bas du hr */
 }
 
- p {
+ .element2 {
         padding-bottom: 1.25em;
     }
 
@@ -167,23 +167,18 @@ img {
 
 
 
-.element2 p {
-    font-family: 'Inter Tight', sans-serif;
-    font-style: medium;
-    font-weight: 500;
-    font-size: 1em;
-}
 
-.elementtexte p {
-    font-family: 'Inter Tight', sans-serif;
-    font-style: medium;
-    font-weight: 500;
-    font-size: 1em;
-}
 
 .responsive-image {
     width: 100%; /* Remplacez la valeur en pixels par un pourcentage */
     height: auto;
+}
+
+video
+{
+    width: 100%;
+    padding-bottom: 1.25em;
+
 }
 
 @media all and (max-device-width: 991px) {
