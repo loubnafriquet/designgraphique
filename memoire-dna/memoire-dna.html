@@ -1,179 +1,323 @@
-<!DOCTYPE html>
-<html> 
-  <head> 
-    <title> Loubna Friquet </title> 
-    <meta charset="UTF-8">
-     <link rel="stylesheet" href="memoire-dna.css">
-     
-     	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+/* Mettez ces styles au début de votre fichier CSS pour les éléments de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+body {
+    margin-top: 0;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    color: black;
+}
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+header {
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    background-color: white;
+    padding-left: 1em;
+    z-index: 100; /* Pour être au-dessus du menu mobile */
+}
 
- <script>
-        // JavaScript function to toggle the menu visibility
-        function toggleMenu() {
-            var menu = document.getElementById("menu");
-            menu.classList.toggle("active");
-        }
+hr {
+    color: black;
+    background-color: black;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin: 2em 0; /* Espacement en haut et en bas du hr */
+}
+
+ .element2 {
+        padding-bottom: 1.25em;
+    }
+
+#menu {
+    position: fixed;
+    top: 5%; /* Pour éviter de chevaucher le header */
+    width: 33%;
+    height: 95%; /* Hauteur ajustée pour laisser de l'espace en haut */
+    padding-top: 3em;
+    padding-left: 0;
+    margin-right: 1em;
+    float: left;
+    overflow-y: scroll; /* Permet de faire défiler le contenu si nécessaire */
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+}
+
+#projets {
+    position: fixed;
+    width: 30%;
+    max-height: 100%;
+    padding-left: 1.25em;
+    float: left;
+    overflow-y: scroll;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+body {
+    margin-top: 0;
+}
+
+h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-style: regular;
+    font-weight: 400;
+    font-size: 1em;
+    padding-top:0.6em;
+    color: black;
+}
+
+.filet1
+{
+    color: black;
+    background-color: black;
+    border: none;
+    height: 1px;
+    width: 30%;
+    margin-left: 0;
+    margin-top: -0.4em;
+    margin-bottom: 2em;
+}
 
 
-</script>
+hr
+{
+    color: black;
+    background-color: black;
+    border: none;
+    height: 1px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 
 
-
-  </head>
-  <body>
-
-    <header> 
-      <h1> Loubna Friquet
-    </h1> 
-
- <div class="filet1">
- <hr>
- </div>
-
-    </header>
-
-<div class="nav-toggle" onclick="toggleMenu()">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
-
-  
-<nav id="menu">
-
-    <ul id=projets>
-
-        <li>
-            <a href="../index.html">  1. Maison de la Culture d'Amiens, identité visuelle  </a> 
-        </li>
-        <li>
-            <a href="../bettina/bettina-rheims.html#"> 2. Bettina Rheims, édition La Chapelle</a>
-        </li>
-        <li>
-            <a href="../one/one-line-drawing.html#">  3. Typographie One Line Drawing conçue avec l'IA</a>
-        </li>
-        <li>
-            <a href="../numeration/numeration.html"> 4. Les systèmes de numération, édition d'archives </a>
-        </li>
-        <li>
-            <a href="../memoire-dna/memoire-dna.html"> <strong> 5. Écriture de rue en résistance à Amiens, <br>mémoire DNA
-            </strong></a>
-        </li>
-
-        <li>
-            <a href="#"> 6. Festival IC.ON.IC, dépliant</a>
-        </li>
-
-        <li>
-            <a href="#"> 7. Ligne graphique de la collection Vents Mauvais </a>
-        </li>
-
-        <li>
-            <a href="#"> 8. Graphisme, Féminisme et Émancipation Féminine, <br> mémoire de DNmaDE</a>
-        </li>
-
-        <li>
-            <a href="#"> 9. Affiches et dépliants pour le centre de planification, projet de diplôme </a>
-        </li>
-
-         <li>
-            <a href="#"> 10. Identité visuelle de Gourmet Chez-vous, stage </a>
-        </li>
-
-      
-
+#menu {
+    position: fixed;
+    width: 33%;
+    height: 100%;
+    padding-top: 3em;
+    padding-left: 0;
+    margin-right: 1em;
+    float: left;
  
- <hr/>
-
-        <li>
-            <a href="mailto:loubna.friquet@gmail.com"> Email</a>
-        </li>
-
-
-        <li>
-            <a href="https://www.behance.net/loubnafriq9013"target="_blank" rel="noopener noreferrer"> Behance </a>
- <div class="filet2">
- <hr>
- </div>    
-        </li>
+ 
+}
 
 
 
-        <li>
-           <div class="texte">
-            
-              Graphiste amiénoise, diplomée d'une double-licence en DNmade et DNA je suis étudiante en DNSEP à l'Esad D'Amiens.
-              Ce site a été codé par mes mains en 2023 et utilise la typographie libre de droit Inter Tight disponible chez Google Font.
+#menu {
+    font-family: 'Inter Tight', sans-serif;
+    font-style: light;
+    font-weight: 300;
 
-             </div>
-           
-        </li>
-
-</ul>
-
-</nav>
+}
 
 
 
-<main>
+#projets {
+    font-family: 'Inter Tight', sans-serif;
+    font-style: light;
+    font-weight: 300;
+    font-size: 1.1em;
+    overflow-y: scroll; 
+}
 
-  <div class="container">
-    <div class="element1">
 
-   <img src="dna1.jpg" alt>
 
-  </div>
 
-   <div class="element2">
-  <p> <strong> Mémoire de DNA "Écriture de rue en résistance à Amiens, écrit d’événement et graphisme vernaculaire". Juin 2023</strong> <Br> </p>
+nav ul {
+    list-style-type: none;   
+}
 
-    <p> 1 édition reliure copte à la main sur papier Cyclus Offset recyclé 100g/m2
-Koala Glossy 130g/m2 et du Fabriano teinté 80g/m2, 6 éditions fanzines issues de mon mémoire imprimées sur du Fabriano teinté, des visuels "carte-graphique" imprimés sur du A4. <Br> </p>
+main {
+    width: auto;
+    height: auto;
+    padding-top: 3.5em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    float: left;
+    margin-left: 33%;
+    margin-right: 1.25em;
+    background-color: #DCDCDC;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+img {
+    padding-bottom: 1.25em;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+.responsive-image {
+    width: 100%; /* Remplacez la valeur en pixels par un pourcentage */
+    height: auto;
+}
+
+
+
+@media all and (max-device-width: 991px) {
+    /* Styles pour les écrans de taille maximale de 991px (tailles de téléphone) */
+    #menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        z-index: 999;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+        margin-left: 0;
+        overflow-y: auto; /* Permet de faire défiler le contenu du menu */
+    }
+
+    hr {
+        max-width: 90%;
+        margin-left: 1em;
+    }
+
+    #projets {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        padding-left: 1.25em;
+        padding-bottom: 1.25em;
+        padding: 0;
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #projets {
+        font-size: 12px; /* Taille de police ajustée */
+    }
     
-<p>
-Comment les pratiques de l’écriture militante amiénoise ont-elles évolué ?
-À travers mes recherches, j’ai retracé son évolution dans le temps, mais j’ai aussi mis en évidence les nouveaux modes d’action de l’écriture qui tendent vers plus d'individualité.
-Ma méthodologie s'est basée sur de l'enquête de terrain, des interviews, des recherches et des analyses purement personnelles. Ce mémoire aborde des questionnements socio-économiques.
-Tout le londe de cette année j'ai pris des photographies dans la rue d'écritures. 
-Dans ce mémoire, il est question de la trace, car l’écriture de rue est éphémère. 
-Dans mes projets je m’intéresse à cette idée de trace, à l’écriture et à la gestuelle manuelle. 
-
- </p>
-
-
-
-  </div>
-  <div class="element3">
-
+    .filet1 {
  
-  <img src="dna3.jpg" alt>
-  <img src="dna2.jpg" alt>
-  <img src="dna4.jpg" alt>
-  <img src="dna5.jpg" alt>
-  <img src="dna7.jpg" alt>
-  <img src="dna8.jpg" alt>
-  <img src="dna9.jpg" alt>
-  <img src="dna6.jpg" alt>
-  
+    width: 90%;
+    margin-left: 0em;
+    margin-top: -5em;
+    background-color: white;
+    color: white
+
+}
+ .nav-toggle {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 1000;
+        cursor: pointer;
+    }
+
+    .nav-toggle span {
+        display: block;
+        width: 2.5rem;
+        height: 0.125rem;
+        margin-bottom: 0.25rem;
+        background-color: black;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .nav-toggle span:last-child {
+        margin-bottom: 0;
+    }
+
+    .nav-toggle.active span:first-child {
+        transform: translateY(0.375rem) rotate(45deg);
+    }
+
+    .nav-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .nav-toggle.active span:last-child {
+        transform: translateY(-0.375rem) rotate(-45deg);
+    }
+
+    #menu.active {
+        transform: translateX(0);
+    }
+
+    #menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #menu li {
+        margin: 0em;
+    }
+
+    #menu a {
+        display: block;
+        padding: 1em;
+        text-decoration: none;
+        color: black;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 0.6em;
+        margin-right: 0;
+        padding-top: 4em;
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+      
+       
+
+    }
+.texte
+{
+       
+        padding-left: 1.25em;
+        padding-right: 1.25em;
+      
+       
+
+    }
+
+    .filet1
+{
+    margin-top: -4em;
+   
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 2.5em;
+    background-color: white;
+
+    z-index: 100; /* Pour être au-dessus du menu mobile */
+}
    
 
-  </div>
 
-
- 
-
-
-
-</main>
-
-    
-  </body>
-</html>
+    body {
+        width: fit-content(95%); 
+        padding-right: 1.25em;
+        
+    }
+}
